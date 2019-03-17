@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+   	*{margin:0px;
+   		padding: 0px;}
+     body{font-family: 'Sniglet', cursive;
+ }
+   
+   
+   .p{
+      padding: 100px;
+   }
+   .d{
+      background-color: lightgrey;
+   }
+   .small
+   {
+      font-size: 1rem;
+      font-size: 1.1vw;
+      margin-right: 5px;
+   }
+   .maintemp
+   {
+      font-size: 1.9rem;
+      font-size: 1.9vw;
+      
+   }
+   .big{
+      font-size: 1rem;
+      font-size: 1.1vw;
+      margin-left: 5px;
+   }
+   .normal{
+      font-size: 1.5rem;
+      font-size: 1.6vw;
+   }
+
+#cont{
+   background-color: rgba(0,0,0,0.7);
+   background-image: url("");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width:100%;
+   height:100vh;
+}
+/*.top{
+   position: relative;
+   top:-30px;
+   left:36px;
+   font-style: italic;
+   color: red;
+}*/
+/*box shadow style*/
+.shadow{
+   -webkit-box-shadow: 2px 0px 17px 10px rgba(0,0,0,0.5); 
+box-shadow: 2px 0px 17px 10px rgba(0,0,0,0.5); 
+}
+/*padding for container div*/
+.padding{padding-top: 80px;}
+/*media query for mob& tablate version*/
+@media(max-width: 900px){
+   .small{font-size: 1rem;}
+   .normal{font-size: 1.5rem}
+   .maintemp{font-size: 1.5rem;}
+   .big{font-size: 1rem;}
+   .con{width:50%;}
+   .sm-shadow{box-shadow: none;}
+}
+@media (max-width:560px){
+   .mr{margin-right: -50px;}
+   .ml{margin-left: 7px;}
+   .small{font-size: 1rem;}
+   .normal{font-size: 1.5rem;}
+   .padding{padding-top: 30px;}
+   .maintemp{font-size: 1.5rem;}
+   .big{font-size: 1rem;}
+   .con{width:50%;}
+   .sm-shadow{box-shadow: 2px 0px 17px 10px rgba(0,0,0,0.5);
+      margin-bottom: 4%;}
+   .shadow{box-shadow: none;}
+   .padding{padding-top: 0px;}
+  
+}
+@media (max-width: 500px){
+       .con{width:45%;}
+         .ml{margin-right: -60px;}
+         .sm-shadow{box-shadow: 2px 0px 17px 10px rgba(0,0,0,0.5);
+            margin-bottom: 2%;}
+         .shadow{box-shadow: none;}
+}
